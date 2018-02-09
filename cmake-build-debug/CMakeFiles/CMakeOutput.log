@@ -1,0 +1,536 @@
+The system is: Linux - 4.10.0-28-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b15d1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b15d1.dir/build.make CMakeFiles/cmTC_b15d1.dir/build
+make[1]: Entering directory '/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b15d1.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_b15d1.dir/testCCompiler.c.o   -c /home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_b15d1
+/home/jingyi/Downloads/clion-2017.3.3/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b15d1.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_b15d1.dir/testCCompiler.c.o  -o cmTC_b15d1 
+make[1]: Leaving directory '/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5dbdb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5dbdb.dir/build.make CMakeFiles/cmTC_5dbdb.dir/build
+make[1]: Entering directory '/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5dbdb.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_5dbdb.dir/CMakeCCompilerABI.c.o   -c /home/jingyi/Downloads/clion-2017.3.3/bin/cmake/share/cmake-3.9/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_5dbdb
+/home/jingyi/Downloads/clion-2017.3.3/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5dbdb.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_5dbdb.dir/CMakeCCompilerABI.c.o  -o cmTC_5dbdb 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.4' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_5dbdb' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc6axAyT.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_5dbdb /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_5dbdb.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_5dbdb/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_5dbdb.dir/build.make CMakeFiles/cmTC_5dbdb.dir/build]
+  ignore line: [make[1]: Entering directory '/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_5dbdb.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_5dbdb.dir/CMakeCCompilerABI.c.o   -c /home/jingyi/Downloads/clion-2017.3.3/bin/cmake/share/cmake-3.9/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_5dbdb]
+  ignore line: [/home/jingyi/Downloads/clion-2017.3.3/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5dbdb.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_5dbdb.dir/CMakeCCompilerABI.c.o  -o cmTC_5dbdb ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.4' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_5dbdb' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc6axAyT.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_5dbdb /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_5dbdb.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc6axAyT.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_5dbdb] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
+    arg [CMakeFiles/cmTC_5dbdb.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5] ==> [/usr/lib/gcc/x86_64-linux-gnu/5]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2f3a8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2f3a8.dir/build.make CMakeFiles/cmTC_2f3a8.dir/build
+make[1]: Entering directory '/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2f3a8.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_2f3a8.dir/feature_tests.c.o   -c /home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_2f3a8
+/home/jingyi/Downloads/clion-2017.3.3/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f3a8.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_2f3a8.dir/feature_tests.c.o  -o cmTC_2f3a8 
+make[1]: Leaving directory '/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fa79b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fa79b.dir/build.make CMakeFiles/cmTC_fa79b.dir/build
+make[1]: Entering directory '/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fa79b.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_fa79b.dir/feature_tests.c.o   -c /home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_fa79b
+/home/jingyi/Downloads/clion-2017.3.3/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fa79b.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_fa79b.dir/feature_tests.c.o  -o cmTC_fa79b 
+make[1]: Leaving directory '/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_edbe3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_edbe3.dir/build.make CMakeFiles/cmTC_edbe3.dir/build
+make[1]: Entering directory '/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_edbe3.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_edbe3.dir/feature_tests.c.o   -c /home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_edbe3
+/home/jingyi/Downloads/clion-2017.3.3/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_edbe3.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_edbe3.dir/feature_tests.c.o  -o cmTC_edbe3 
+make[1]: Leaving directory '/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Performing C SOURCE FILE Test HAVE_GCC_WALL succeeded with the following output:
+Change Dir: /home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f57ac/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f57ac.dir/build.make CMakeFiles/cmTC_f57ac.dir/build
+make[1]: Entering directory '/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f57ac.dir/src.c.o
+/usr/bin/cc   -DHAVE_GCC_WALL -Wall   -o CMakeFiles/cmTC_f57ac.dir/src.c.o   -c /home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_f57ac
+/home/jingyi/Downloads/clion-2017.3.3/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f57ac.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_GCC_WALL -Wall    -rdynamic CMakeFiles/cmTC_f57ac.dir/src.c.o  -o cmTC_f57ac 
+make[1]: Leaving directory '/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_FOMIT_FRAME_POINTER succeeded with the following output:
+Change Dir: /home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c07f1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c07f1.dir/build.make CMakeFiles/cmTC_c07f1.dir/build
+make[1]: Entering directory '/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c07f1.dir/src.c.o
+/usr/bin/cc   -Wall -DHAVE_GCC_FOMIT_FRAME_POINTER -fomit-frame-pointer   -o CMakeFiles/cmTC_c07f1.dir/src.c.o   -c /home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_c07f1
+/home/jingyi/Downloads/clion-2017.3.3/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c07f1.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -DHAVE_GCC_FOMIT_FRAME_POINTER -fomit-frame-pointer    -rdynamic CMakeFiles/cmTC_c07f1.dir/src.c.o  -o cmTC_c07f1 
+make[1]: Leaving directory '/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d733d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d733d.dir/build.make CMakeFiles/cmTC_d733d.dir/build
+make[1]: Entering directory '/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d733d.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTC_d733d.dir/CheckIncludeFile.c.o   -c /home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d733d
+/home/jingyi/Downloads/clion-2017.3.3/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d733d.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall     -rdynamic CMakeFiles/cmTC_d733d.dir/CheckIncludeFile.c.o  -o cmTC_d733d 
+make[1]: Leaving directory '/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a2a27/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a2a27.dir/build.make CMakeFiles/cmTC_a2a27.dir/build
+make[1]: Entering directory '/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a2a27.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTC_a2a27.dir/CheckIncludeFile.c.o   -c /home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_a2a27
+/home/jingyi/Downloads/clion-2017.3.3/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2a27.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall     -rdynamic CMakeFiles/cmTC_a2a27.dir/CheckIncludeFile.c.o  -o cmTC_a2a27 
+make[1]: Leaving directory '/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c4ce4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c4ce4.dir/build.make CMakeFiles/cmTC_c4ce4.dir/build
+make[1]: Entering directory '/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c4ce4.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTC_c4ce4.dir/CheckIncludeFile.c.o   -c /home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c4ce4
+/home/jingyi/Downloads/clion-2017.3.3/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4ce4.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall     -rdynamic CMakeFiles/cmTC_c4ce4.dir/CheckIncludeFile.c.o  -o cmTC_c4ce4 
+make[1]: Leaving directory '/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e857e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e857e.dir/build.make CMakeFiles/cmTC_e857e.dir/build
+make[1]: Entering directory '/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e857e.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTC_e857e.dir/CheckIncludeFile.c.o   -c /home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e857e
+/home/jingyi/Downloads/clion-2017.3.3/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e857e.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall     -rdynamic CMakeFiles/cmTC_e857e.dir/CheckIncludeFile.c.o  -o cmTC_e857e 
+make[1]: Leaving directory '/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0e85f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0e85f.dir/build.make CMakeFiles/cmTC_0e85f.dir/build
+make[1]: Entering directory '/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0e85f.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTC_0e85f.dir/CheckIncludeFile.c.o   -c /home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0e85f
+/home/jingyi/Downloads/clion-2017.3.3/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e85f.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall     -rdynamic CMakeFiles/cmTC_0e85f.dir/CheckIncludeFile.c.o  -o cmTC_0e85f 
+make[1]: Leaving directory '/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7873f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7873f.dir/build.make CMakeFiles/cmTC_7873f.dir/build
+make[1]: Entering directory '/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7873f.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTC_7873f.dir/CheckIncludeFile.c.o   -c /home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7873f
+/home/jingyi/Downloads/clion-2017.3.3/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7873f.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall     -rdynamic CMakeFiles/cmTC_7873f.dir/CheckIncludeFile.c.o  -o cmTC_7873f 
+make[1]: Leaving directory '/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_046bf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_046bf.dir/build.make CMakeFiles/cmTC_046bf.dir/build
+make[1]: Entering directory '/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_046bf.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTC_046bf.dir/CheckIncludeFile.c.o   -c /home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_046bf
+/home/jingyi/Downloads/clion-2017.3.3/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_046bf.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall     -rdynamic CMakeFiles/cmTC_046bf.dir/CheckIncludeFile.c.o  -o cmTC_046bf 
+make[1]: Leaving directory '/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d0dcc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d0dcc.dir/build.make CMakeFiles/cmTC_d0dcc.dir/build
+make[1]: Entering directory '/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d0dcc.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTC_d0dcc.dir/CheckIncludeFile.c.o   -c /home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d0dcc
+/home/jingyi/Downloads/clion-2017.3.3/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0dcc.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall     -rdynamic CMakeFiles/cmTC_d0dcc.dir/CheckIncludeFile.c.o  -o cmTC_d0dcc 
+make[1]: Leaving directory '/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining size of off_t passed with the following output:
+Change Dir: /home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_218ff/fast"
+/usr/bin/make -f CMakeFiles/cmTC_218ff.dir/build.make CMakeFiles/cmTC_218ff.dir/build
+make[1]: Entering directory '/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_218ff.dir/SIZEOF_OFF_T.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -Wall    -o CMakeFiles/cmTC_218ff.dir/SIZEOF_OFF_T.c.o   -c /home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_OFF_T.c
+Linking C executable cmTC_218ff
+/home/jingyi/Downloads/clion-2017.3.3/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_218ff.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall     -rdynamic CMakeFiles/cmTC_218ff.dir/SIZEOF_OFF_T.c.o  -o cmTC_218ff 
+make[1]: Leaving directory '/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the fseeko exist passed with the following output:
+Change Dir: /home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dcf63/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dcf63.dir/build.make CMakeFiles/cmTC_dcf63.dir/build
+make[1]: Entering directory '/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dcf63.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -Wall    -o CMakeFiles/cmTC_dcf63.dir/CheckSymbolExists.c.o   -c /home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_dcf63
+/home/jingyi/Downloads/clion-2017.3.3/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dcf63.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall     -rdynamic CMakeFiles/cmTC_dcf63.dir/CheckSymbolExists.c.o  -o cmTC_dcf63 
+make[1]: Leaving directory '/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+File /home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fseeko
+  return ((int*)(&fseeko))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the ftello exist passed with the following output:
+Change Dir: /home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_479de/fast"
+/usr/bin/make -f CMakeFiles/cmTC_479de.dir/build.make CMakeFiles/cmTC_479de.dir/build
+make[1]: Entering directory '/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_479de.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -Wall    -o CMakeFiles/cmTC_479de.dir/CheckSymbolExists.c.o   -c /home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_479de
+/home/jingyi/Downloads/clion-2017.3.3/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_479de.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall     -rdynamic CMakeFiles/cmTC_479de.dir/CheckSymbolExists.c.o  -o cmTC_479de 
+make[1]: Leaving directory '/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+File /home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef ftello
+  return ((int*)(&ftello))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the PRIdMAX exist passed with the following output:
+Change Dir: /home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dc1c5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dc1c5.dir/build.make CMakeFiles/cmTC_dc1c5.dir/build
+make[1]: Entering directory '/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dc1c5.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -Wall    -o CMakeFiles/cmTC_dc1c5.dir/CheckSymbolExists.c.o   -c /home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_dc1c5
+/home/jingyi/Downloads/clion-2017.3.3/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc1c5.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall     -rdynamic CMakeFiles/cmTC_dc1c5.dir/CheckSymbolExists.c.o  -o cmTC_dc1c5 
+make[1]: Leaving directory '/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+File /home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <inttypes.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef PRIdMAX
+  return ((int*)(&PRIdMAX))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test HAVE_INLINE succeeded with the following output:
+Change Dir: /home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_90f57/fast"
+/usr/bin/make -f CMakeFiles/cmTC_90f57.dir/build.make CMakeFiles/cmTC_90f57.dir/build
+make[1]: Entering directory '/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_90f57.dir/src.c.o
+/usr/bin/cc   -Wall -DHAVE_INLINE   -o CMakeFiles/cmTC_90f57.dir/src.c.o   -c /home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_90f57
+/home/jingyi/Downloads/clion-2017.3.3/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90f57.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -DHAVE_INLINE    -rdynamic CMakeFiles/cmTC_90f57.dir/src.c.o  -o cmTC_90f57 
+make[1]: Leaving directory '/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+Source file was:
+inline void func(); void func() { } int main() { func(); return 0; }
+Performing C SOURCE FILE Test HAVE___INLINE succeeded with the following output:
+Change Dir: /home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6fe35/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6fe35.dir/build.make CMakeFiles/cmTC_6fe35.dir/build
+make[1]: Entering directory '/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6fe35.dir/src.c.o
+/usr/bin/cc   -Wall -DHAVE___INLINE   -o CMakeFiles/cmTC_6fe35.dir/src.c.o   -c /home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_6fe35
+/home/jingyi/Downloads/clion-2017.3.3/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6fe35.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -DHAVE___INLINE    -rdynamic CMakeFiles/cmTC_6fe35.dir/src.c.o  -o cmTC_6fe35 
+make[1]: Leaving directory '/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+Source file was:
+__inline void func(); void func() { } int main() { func(); return 0; }
+Performing C SOURCE FILE Test HAVE___INLINE__ succeeded with the following output:
+Change Dir: /home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d841b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d841b.dir/build.make CMakeFiles/cmTC_d841b.dir/build
+make[1]: Entering directory '/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d841b.dir/src.c.o
+/usr/bin/cc   -Wall -DHAVE___INLINE__   -o CMakeFiles/cmTC_d841b.dir/src.c.o   -c /home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_d841b
+/home/jingyi/Downloads/clion-2017.3.3/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d841b.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -DHAVE___INLINE__    -rdynamic CMakeFiles/cmTC_d841b.dir/src.c.o  -o cmTC_d841b 
+make[1]: Leaving directory '/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+Source file was:
+__inline__ void func(); void func() { } int main() { func(); return 0; }
+Determining size of uint8_t passed with the following output:
+Change Dir: /home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4b02a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4b02a.dir/build.make CMakeFiles/cmTC_4b02a.dir/build
+make[1]: Entering directory '/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4b02a.dir/UINT8_T.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTC_4b02a.dir/UINT8_T.c.o   -c /home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CheckTypeSize/UINT8_T.c
+Linking C executable cmTC_4b02a
+/home/jingyi/Downloads/clion-2017.3.3/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b02a.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall     -rdynamic CMakeFiles/cmTC_4b02a.dir/UINT8_T.c.o  -o cmTC_4b02a 
+make[1]: Leaving directory '/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining size of int32_t passed with the following output:
+Change Dir: /home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f69ed/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f69ed.dir/build.make CMakeFiles/cmTC_f69ed.dir/build
+make[1]: Entering directory '/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f69ed.dir/INT32_T.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTC_f69ed.dir/INT32_T.c.o   -c /home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CheckTypeSize/INT32_T.c
+Linking C executable cmTC_f69ed
+/home/jingyi/Downloads/clion-2017.3.3/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f69ed.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall     -rdynamic CMakeFiles/cmTC_f69ed.dir/INT32_T.c.o  -o cmTC_f69ed 
+make[1]: Leaving directory '/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the PRId32 exist passed with the following output:
+Change Dir: /home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b63e1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b63e1.dir/build.make CMakeFiles/cmTC_b63e1.dir/build
+make[1]: Entering directory '/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b63e1.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTC_b63e1.dir/CheckSymbolExists.c.o   -c /home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_b63e1
+/home/jingyi/Downloads/clion-2017.3.3/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b63e1.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall     -rdynamic CMakeFiles/cmTC_b63e1.dir/CheckSymbolExists.c.o  -o cmTC_b63e1 
+make[1]: Leaving directory '/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+File /home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <inttypes.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef PRId32
+  return ((int*)(&PRId32))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

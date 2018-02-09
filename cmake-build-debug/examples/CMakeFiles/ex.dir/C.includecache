@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jingyi/CLionProjects/libdivsufsort/examples/ex.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+divsufsort.h
+-
+
+examples/../include/divsufsort.h
+inttypes.h
+-
+

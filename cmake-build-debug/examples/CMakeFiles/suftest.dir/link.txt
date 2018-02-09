@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wall -g  -rdynamic CMakeFiles/suftest.dir/suftest.o  -o suftest  -L/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/../lib -Wl,-rpath,/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/../lib:/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/lib ../lib/libdivsufsort.so.3.0.1 

@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="libdivsufsort"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\CMakeModules\;CMake Files\pkgconfig\;CMake Files\include\;CMake Files\lib\;CMake Files\examples\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="package_source">
+				<Option working_dir="/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/Makefile&quot;  VERBOSE=1 package_source"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="package">
+				<Option working_dir="/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/Makefile&quot;  VERBOSE=1 package"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uninstall">
+				<Option working_dir="/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/Makefile&quot;  VERBOSE=1 uninstall"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="divsufsort">
+				<Option output="/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/lib/libdivsufsort.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/lib"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H=1"/>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add option="-D__STDC_CONSTANT_MACROS"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add directory="/home/jingyi/CLionProjects/libdivsufsort/lib/../include"/>
+					<Add directory="/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/lib/../include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 divsufsort"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="divsufsort/fast">
+				<Option output="/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/lib/libdivsufsort.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/lib"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H=1"/>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add option="-D__STDC_CONSTANT_MACROS"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add directory="/home/jingyi/CLionProjects/libdivsufsort/lib/../include"/>
+					<Add directory="/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/lib/../include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 divsufsort/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="suftest">
+				<Option output="/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/suftest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H=1"/>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add option="-D__STDC_CONSTANT_MACROS"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add directory="/home/jingyi/CLionProjects/libdivsufsort/examples/../include"/>
+					<Add directory="/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/../include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 suftest"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="suftest/fast">
+				<Option output="/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/suftest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H=1"/>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add option="-D__STDC_CONSTANT_MACROS"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add directory="/home/jingyi/CLionProjects/libdivsufsort/examples/../include"/>
+					<Add directory="/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/../include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 suftest/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mksary">
+				<Option output="/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/mksary" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H=1"/>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add option="-D__STDC_CONSTANT_MACROS"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add directory="/home/jingyi/CLionProjects/libdivsufsort/examples/../include"/>
+					<Add directory="/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/../include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 mksary"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mksary/fast">
+				<Option output="/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/mksary" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H=1"/>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add option="-D__STDC_CONSTANT_MACROS"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add directory="/home/jingyi/CLionProjects/libdivsufsort/examples/../include"/>
+					<Add directory="/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/../include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 mksary/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sasearch">
+				<Option output="/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/sasearch" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H=1"/>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add option="-D__STDC_CONSTANT_MACROS"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add directory="/home/jingyi/CLionProjects/libdivsufsort/examples/../include"/>
+					<Add directory="/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/../include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 sasearch"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sasearch/fast">
+				<Option output="/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/sasearch" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H=1"/>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add option="-D__STDC_CONSTANT_MACROS"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add directory="/home/jingyi/CLionProjects/libdivsufsort/examples/../include"/>
+					<Add directory="/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/../include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 sasearch/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bwt">
+				<Option output="/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/bwt" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H=1"/>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add option="-D__STDC_CONSTANT_MACROS"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add directory="/home/jingyi/CLionProjects/libdivsufsort/examples/../include"/>
+					<Add directory="/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/../include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 bwt"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bwt/fast">
+				<Option output="/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/bwt" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H=1"/>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add option="-D__STDC_CONSTANT_MACROS"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add directory="/home/jingyi/CLionProjects/libdivsufsort/examples/../include"/>
+					<Add directory="/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/../include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 bwt/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unbwt">
+				<Option output="/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/unbwt" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H=1"/>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add option="-D__STDC_CONSTANT_MACROS"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add directory="/home/jingyi/CLionProjects/libdivsufsort/examples/../include"/>
+					<Add directory="/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/../include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 unbwt"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unbwt/fast">
+				<Option output="/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/unbwt" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H=1"/>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add option="-D__STDC_CONSTANT_MACROS"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add directory="/home/jingyi/CLionProjects/libdivsufsort/examples/../include"/>
+					<Add directory="/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/../include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 unbwt/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex">
+				<Option output="/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/ex" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H=1"/>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add option="-D__STDC_CONSTANT_MACROS"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add directory="/home/jingyi/CLionProjects/libdivsufsort/examples/../include"/>
+					<Add directory="/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/../include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 ex"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex/fast">
+				<Option output="/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/ex" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H=1"/>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add option="-D__STDC_CONSTANT_MACROS"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_LARGE_FILES"/>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add directory="/home/jingyi/CLionProjects/libdivsufsort/examples/../include"/>
+					<Add directory="/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/../include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 ex/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jingyi/CLionProjects/libdivsufsort/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/jingyi/CLionProjects/libdivsufsort/examples/bwt.c">
+			<Option target="bwt"/>
+		</Unit>
+		<Unit filename="/home/jingyi/CLionProjects/libdivsufsort/examples/ex.c">
+			<Option target="ex"/>
+		</Unit>
+		<Unit filename="/home/jingyi/CLionProjects/libdivsufsort/examples/mksary.c">
+			<Option target="mksary"/>
+		</Unit>
+		<Unit filename="/home/jingyi/CLionProjects/libdivsufsort/examples/sasearch.c">
+			<Option target="sasearch"/>
+		</Unit>
+		<Unit filename="/home/jingyi/CLionProjects/libdivsufsort/examples/suftest.c">
+			<Option target="suftest"/>
+		</Unit>
+		<Unit filename="/home/jingyi/CLionProjects/libdivsufsort/examples/unbwt.c">
+			<Option target="unbwt"/>
+		</Unit>
+		<Unit filename="/home/jingyi/CLionProjects/libdivsufsort/lib/divsufsort.c">
+			<Option target="divsufsort"/>
+		</Unit>
+		<Unit filename="/home/jingyi/CLionProjects/libdivsufsort/lib/sssort.c">
+			<Option target="divsufsort"/>
+		</Unit>
+		<Unit filename="/home/jingyi/CLionProjects/libdivsufsort/lib/trsort.c">
+			<Option target="divsufsort"/>
+		</Unit>
+		<Unit filename="/home/jingyi/CLionProjects/libdivsufsort/lib/utils.c">
+			<Option target="divsufsort"/>
+		</Unit>
+		<Unit filename="/home/jingyi/CLionProjects/libdivsufsort/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/jingyi/CLionProjects/libdivsufsort/VERSION.cmake">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/jingyi/CLionProjects/libdivsufsort/CMakeModules/AppendCompilerFlags.cmake">
+			<Option virtualFolder="CMake Files\CMakeModules\"/>
+		</Unit>
+		<Unit filename="/home/jingyi/CLionProjects/libdivsufsort/CMakeModules/ProjectCPack.cmake">
+			<Option virtualFolder="CMake Files\CMakeModules\"/>
+		</Unit>
+		<Unit filename="/home/jingyi/CLionProjects/libdivsufsort/CMakeModules/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\CMakeModules\"/>
+		</Unit>
+		<Unit filename="/home/jingyi/CLionProjects/libdivsufsort/CMakeModules/CheckFunctionKeywords.cmake">
+			<Option virtualFolder="CMake Files\CMakeModules\"/>
+		</Unit>
+		<Unit filename="/home/jingyi/CLionProjects/libdivsufsort/CMakeModules/CheckLFS.cmake">
+			<Option virtualFolder="CMake Files\CMakeModules\"/>
+		</Unit>
+		<Unit filename="/home/jingyi/CLionProjects/libdivsufsort/pkgconfig/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\pkgconfig\"/>
+		</Unit>
+		<Unit filename="/home/jingyi/CLionProjects/libdivsufsort/pkgconfig/libdivsufsort.pc.cmake">
+			<Option virtualFolder="CMake Files\pkgconfig\"/>
+		</Unit>
+		<Unit filename="/home/jingyi/CLionProjects/libdivsufsort/include/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\include\"/>
+		</Unit>
+		<Unit filename="/home/jingyi/CLionProjects/libdivsufsort/include/lfs.h.cmake">
+			<Option virtualFolder="CMake Files\include\"/>
+		</Unit>
+		<Unit filename="/home/jingyi/CLionProjects/libdivsufsort/include/config.h.cmake">
+			<Option virtualFolder="CMake Files\include\"/>
+		</Unit>
+		<Unit filename="/home/jingyi/CLionProjects/libdivsufsort/include/divsufsort.h.cmake">
+			<Option virtualFolder="CMake Files\include\"/>
+		</Unit>
+		<Unit filename="/home/jingyi/CLionProjects/libdivsufsort/lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\"/>
+		</Unit>
+		<Unit filename="/home/jingyi/CLionProjects/libdivsufsort/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
